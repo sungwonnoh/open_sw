@@ -14,3 +14,16 @@ function handleTitleClick(){
 title.addEventListener("click", handleTitleClick);
 
 handleTitleClick()  <<실행버튼
+
+<h4>id 사용</h4>
+const title = document.querySelector("#hello");
+
+const title = document.getElementById("hello");
+
+//같은 내용이다=요소를 가져옴
+
+<h4>form submission</h4>
+input : 입력 폼
+브라우저는 엔터를 누를 때 새로고침을 하고 form을 submit 하도록 되어있다.
+
+이때 preventDefault() 는 브라우저의 기본 동작을 막아준다
