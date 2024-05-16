@@ -39,3 +39,4 @@ input : 입력 폼
 
 
 css사용 vs js에서 class 사용
+-> 리액트에서는 라이브러리 사용이 편함, styled-components나 tailwind사용
